@@ -51,6 +51,6 @@ const showDetail = async () => {
 
 <style>
 .like-btn {
-  mask: url(src/assets/icons/like.svg) no-repeat;
+  mask: url(@/assets/icons/like.svg) no-repeat;
 }
 </style>
