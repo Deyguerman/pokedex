@@ -1,0 +1,30 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --animate-duration: 200ms;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: theme('colors.blue.800') #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: theme('colors.blue.800');
+  border-radius: 10px;
+  border: 2px solid theme('colors.white');
+}
