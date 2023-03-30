@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-4 h-fit lg:h-screen p-4 bg-gray-100">
+  <div class="flex flex-col gap-4 min-h-screen p-4 bg-gray-100">
     <NavigationToolbar />
 
     <Transition
@@ -9,7 +9,7 @@
     >
       <div
         v-show="showDetail"
-        class="w-full flex flex-wrap flex-row gap-4 p-4 rounded bg-blue-400/70 h-fit lg:h-full"
+        class="w-full flex flex-wrap flex-row gap-4 p-4 rounded bg-blue-400/70"
       >
         <div class="flex flex-col w-full">
           <img
